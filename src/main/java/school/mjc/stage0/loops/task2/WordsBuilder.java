@@ -5,7 +5,7 @@ public class WordsBuilder {
         StringBuilder stringBuilder = new StringBuilder();
 
         int i = 0;
-        while (i < chars.length) {
+        while (i < chars.length - 1) {
             stringBuilder.append(chars[i]);
             i++;
         }
