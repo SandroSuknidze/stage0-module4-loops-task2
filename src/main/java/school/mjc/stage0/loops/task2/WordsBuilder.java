@@ -4,10 +4,12 @@ public class WordsBuilder {
     public void buildPhrase(char... chars) {
         StringBuilder stringBuilder = new StringBuilder();
 
-        for(int i = 0; i < chars.length; i++){
+        int i = 0;
+        while (i < chars.length) {
             stringBuilder.append(chars[i]);
+            i++;
         }
 
-        System.out.println(stringBuilder.toString());
+        System.out.println(stringBuilder);
     }
 }
